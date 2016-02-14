@@ -46,7 +46,7 @@ function Topwaves_Equipment () {
 
 Topwaves_Equipment();
 
-Topwaves_Cars()->register_post_type(
+Topwaves_Equipment()->register_post_type(
 	'equipment',
 	__('Equipment', 'topwaves-equipment'),
 	__('Equipment', 'topwaves-equipment')
