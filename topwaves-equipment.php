@@ -53,7 +53,7 @@ Topwaves_Equipment()->register_post_type(
 );
 
 Topwaves_Cars()->register_taxonomy(
-	'car_type',
+	'equipment_type',
 	__( 'Equipment Types', 'topwaves-equipment' ),
 	__( 'Equipment Type', 'topwaves-equipment' ),
 	'equipment'
