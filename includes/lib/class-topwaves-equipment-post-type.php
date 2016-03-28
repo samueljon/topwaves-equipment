@@ -56,7 +56,7 @@ class Topwaves_Equipment_Post_Type {
 		$this->options = $options;
 
 		// Regsiter post type
-		add_action( 'init' , array( $this, 'register_post_type' ) );
+		add_action( 'init' , array( $this, 'register_post_type' ), 0 );
 
 		// Display custom update messages for posts edits
 		add_filter( 'post_updated_messages', array( $this, 'updated_messages' ) );

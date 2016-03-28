@@ -52,9 +52,16 @@ Topwaves_Equipment()->register_post_type(
 	__('Equipment', 'topwaves-equipment')
 );
 
-Topwaves_Cars()->register_taxonomy(
+Topwaves_Equipment()->register_taxonomy(
 	'equipment_type',
 	__( 'Equipment Types', 'topwaves-equipment' ),
 	__( 'Equipment Type', 'topwaves-equipment' ),
 	'equipment'
 );
+Topwaves_Equipment()->register_taxonomy(
+	'equipment_status',
+	__( 'Equipment Status', 'topwaves-equipment' ),
+	__( 'Equipment Status', 'topwaves-equipment' ),
+	'equipment'
+);
+//flush_rewrite_rules();
